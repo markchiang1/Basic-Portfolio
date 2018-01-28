@@ -1,0 +1,56 @@
+
+
+.container{
+    width: max-width;
+    height: 100%;
+    margin: auto;
+}
+header{
+    width:maxwidth;
+    height: 100px;
+    background-color: whitesmoke;
+}
+.headingBanner{
+    width:970px;
+    margin:auto;
+}
+.tab{
+    display: inline;
+}
+#yourName{
+    float: left;
+    padding:5px, 15px, 5px, 15px;
+    background-color: aquamarine;
+}
+#navBar{
+    float: right;
+    background-color: aqua;
+}
+#entireContentArea{
+    width:970px;
+    margin: auto;
+}
+#mainContentArea{
+    float: left;
+    width: 650px;
+}
+#sideBar{
+    float: right;
+    width: 250px;
+}
+.icon{
+    height: 100px;
+    width: 100px;
+}
+footer{
+    clear: both;
+    margin: auto;
+    background-color: whitesmoke;
+    height: 50px;
+    text-align: center;
+}
+/* .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
