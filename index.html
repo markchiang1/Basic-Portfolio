@@ -11,23 +11,26 @@
 <body>
     <div class="container">
         <header>
-            <div class="headingBanner">
-                <div id="yourName">
+            <div class="headingBanner">  
+                <div id="yourName" class="clearfix">
                         <h1>Mark Chiang</h1>
                 </div>
-                <div id="navBar">
-                    <p class="tab"><a href="index.html">About Me</a></p>
-                    <p class="tab"><a href="portfoli.html">Portfolio</a></p>
-                    <p class="tab"><a href="contact.html">Contact Me</a></p>
+                <div id="navBar" class="clearfix">
+                    <div class="tabSpacing" style="border-right:1px solid whitesmoke"><a class="tabLink" href="index.html">About Me</a></div><span style="color:white">
+                    <div class="tabSpacing" style="border-right:1px solid whitesmoke"><a class="tabLink" href="portfolio.html">Portfolio</a></div><span style="color:white">   
+                    <div class="tabSpacing"><a class="tabLink" href="contact.html">Contact Me</a></div>
                 </div>
             </div>
         </header>
         
+        <br>
+        <br>
         
-        <section id="entireContentArea">
+        <section id="entireContentArea" class="clearfix">
             <section id="mainContentArea">
                 <h2>About Me</h2>
-                <img src="assets/images/selfie.jpg" alt="Your Image" id="bio-image">
+                <br>
+                <div class="imageContainer clearfix"><img src="assets/images/selfie.jpg" alt="Your Image" id="bio-Image"></div>
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ut, ratione dolor eaque accusantium deserunt unde id quod quis consectetur voluptatum rem debitis adipisci voluptatem ducimus ipsa quas, sequi eligendi.
                 Voluptas quod officia unde numquam deserunt odit omnis dolorem dolores ab quia minus voluptatum provident fugit illo harum, fuga aut explicabo enim mollitia totam accusantium. Enim minus architecto porro harum.
@@ -40,18 +43,22 @@
                 Quod temporibus fugiat quia eveniet, minus expedita dolorum at quos! Atque dolores quae explicabo delectus accusantium repudiandae deleniti, ducimus non repellat rerum? Tenetur, quis est totam fuga repellat ut vel!
                 Pariatur similique aut cupiditate beatae quas dignissimos? Eius nemo maxime consectetur suscipit aut provident consequatur nam, aspernatur recusandae soluta dignissimos, maiores velit eos praesentium commodi animi veniam, illo saepe molestias.
                 </p>
-            </section>
+            </section> 
         
-            <section id="sideBar">
-                <h2>Connect With Me</h2>
-                <a href="https://www.facebook.com/mark.chiang.5059"><img class="icon" src="assets/images/facebook.png" alt="Facebook"></a>
-                <a href="https://github.com/markchiang1"><img class="icon" src="assets/images/gitHub.png" alt="Git Hub"></a>
-                <a href="https://www.linkedin.com/in/mark-chiang-b6841669/"><img class="icon" src="assets/images/linkedIn.png" alt="Linked In"></a>
+            <section id="sideBar" class="clearfix">
+                <div class="sideBarContainer">
+                    <h3>Connect With Me</h3>
+                    <a href="https://www.facebook.com/mark.chiang.5059"><img class="icon" src="assets/images/facebook.png" alt="Facebook"></a>
+                    <a href="https://github.com/markchiang1"><img class="icon" src="assets/images/gitHub.png" alt="Git Hub"></a>
+                    <a href="https://www.linkedin.com/in/mark-chiang-b6841669/"><img class="icon" src="assets/images/linkedIn.png" alt="Linked In"></a>
+                </div>
             </section>
-        </section>
       </div>
+    <br>
+    <br>
 </body>
-<footer>
-    <span>Copyright &copy;2016 Mark Chiang </span>
+<br><br>
+<footer class="clearfix">
+    <span>Copyright &copy;2018 Mark Chiang </span>
 </footer>
 </html>
