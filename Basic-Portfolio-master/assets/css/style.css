@@ -1,0 +1,173 @@
+body{
+    background-image: url(../images/background.jpeg);
+    background-attachment: fixed;
+    height:100%;
+    margin: 0;
+    /* display: flex;
+    flex-direction: column; */
+}
+.container{
+    width: max-width;
+    height: 100%;
+    margin: auto;
+    margin-bottom: -50px;
+    min-height: 100%;
+    /* flex: 1; */
+}
+.push{
+    height: 50px;
+}
+header{
+    width:100%;
+    height: 75px;
+    background-color: black;
+    position:fixed;
+    position:top;
+    margin:auto;
+}
+.headingBanner{
+    width:970px;
+    margin:auto;
+}
+#yourName{
+    float: left;
+    background-color: grey;
+    height: 75px;
+    width: 300px;
+    text-align: center;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:40px;
+    font-weight: bold;
+    color: whitesmoke;
+    padding-top: 15px;
+}
+#navBar{
+    float: right;
+    text-align: right;
+    height:75px;
+    width: 400px;
+    padding-top:45px;
+}
+.tabSpacing{
+    display: inline-block;
+    height: 32px;
+    width: 99px;
+    text-align: center;
+    padding-top: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 28px;
+}
+.tabLink, .tablink:visited{
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline;
+    font-size: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+}
+.tabLink:hover{
+   color:grey;
+}
+#entireContentArea{
+    width:970px;
+    margin: auto;
+    padding-top: 75px;
+    margin-bottom: 75px;
+}
+
+/* mainContentArea contains all the content that is on the left side of the window not including the sidebar */
+#mainContentArea{
+    float: left;
+    width: 560px;
+    background-color: dimgray;
+    padding: 45px;
+    /* border-radius: 5%; */
+}
+
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: whitesmoke;
+    padding-bottom:15px;
+    border-bottom: 2px solid whitesmoke;
+}
+p{
+    color: whitesmoke;
+    font-size: 18px;
+    line-height: 27px;
+}
+/* ImageContainer class is to add spacing between image and text, with float positioning, was not able to add spacing onto the image itself 
+and floating the image directly */
+.imageContainer{
+    float: left;
+    height: 325px;
+    width: 325px;
+}
+#bio-Image{
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+    border-radius: 50%;
+    /* position: relative; */
+    margin: 35px, 15px, 15px, 15px;
+}
+
+
+#sideBar{
+    float: right;
+    width: 282px;
+    text-align: center;
+    margin-top:30px;
+    background-color: dimgrey;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+.sideBarContainer{
+    height:185px;
+    width:250px;
+    text-align: center;
+    padding-left: 5px;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color:whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+.icon{
+    height: 70px;
+    width: 70px;
+    padding: 5px;
+}
+.portofolio-proj{
+    height: 250px;
+    width: 250px;
+    padding: 5px;
+    align-content: center;
+}
+.icon:hover {
+    box-shadow: 0 0 2px 2px rgba(0, 140, 186, 0.5);
+}
+footer{
+    clear: both;
+    background-color:black;
+    height: 50px;
+    text-align: center;
+    color:whitesmoke;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
