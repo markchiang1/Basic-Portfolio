@@ -68,7 +68,6 @@ h1{
     padding-top: 75px;
     margin-bottom: 75px;
 }
-
 /* mainContentArea contains all the content that is on the left side of the window not including the sidebar */
 #mainContentArea{
     float: left;
@@ -77,8 +76,6 @@ h1{
     padding: 45px;
     /* border-radius: 5%; */
 }
-
-
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
@@ -107,8 +104,6 @@ and floating the image directly */
     /* position: relative; */
     margin: 35px, 15px, 15px, 15px;
 }
-
-
 #sideBar{
     float: right;
     width: 282px;
@@ -155,4 +150,49 @@ footer{
     content: "";
     clear: both;
     display: table;
+}
+.portfolio{
+    height: 250px;
+    width: 250px;
+}
+.portfolioDiv{
+    float: left;
+    margin: 15px;
+}
+.portfolio-text{
+    text-align: center;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+form{
+  color:white;
+}
+input[type="submit"] {
+    width: 150px; /* width of image */
+    height: 40px; /* height of image */
+    border: 0;
+    background-color: lightgray;
+}
+input[type="submit"]:focus {
+    border: 3px solid #555;
+}
+input[name="message"] {
+    height:400px;
+}
+textarea[name="Text1"] {
+    background-color: lightgray;
+    margin: 8px 0;
+    box-sizing: border-box;
+    padding: 12px 20px;
+}
+textarea[name="Text1"]:focus {
+    border: 3px solid #555;
 }
