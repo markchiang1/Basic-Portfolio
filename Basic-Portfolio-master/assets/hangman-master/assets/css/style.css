@@ -1,0 +1,12 @@
+.display-4{
+    font-size: 24px;
+    font-style: bold;
+    text-align: center;
+}
+#promtGame{
+    padding-left: 20px;
+}
+#computerWordPrompt, #computerWord{
+    padding-left: 20px;
+    font-size: 24px;
+}
